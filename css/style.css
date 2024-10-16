@@ -170,3 +170,8 @@ video{
     width: 300px ;
     height: auto;
 }
+
+footer img {
+    width: 10px;
+    height: 10px;
+}
