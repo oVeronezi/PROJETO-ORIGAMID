@@ -27,6 +27,11 @@ body {
     font-style: normal;
 }
 
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+
 .navbar a {
     float: left;
     display: block;
@@ -157,11 +162,11 @@ p {
 }
 
 .image-container img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
 video{
-    width: 400px ;
+    width: 300px ;
     height: auto;
 }
