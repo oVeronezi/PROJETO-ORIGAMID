@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+}
+
+.navbar {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f00;
+}
+
+.content {
+    padding: 80px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+    color: #f00;
+}
+
+.characters {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.character-card {
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 20px;
+    width: 550px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+.character-card:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #1f1e1e;
+    color: #fff;
+    margin-top: 12vh;
+}
+
+.container {
+    padding: 100px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    color: #f00;
+    text-align: center;
+}
+
+h2 {
+    color: #ffa500;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ffa500;
+}
+
