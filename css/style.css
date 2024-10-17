@@ -151,7 +151,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.6;
     text-align: justify;
 }
@@ -174,4 +174,80 @@ video{
 footer img {
     width: 10px;
     height: 10px;
+}
+
+.backscorpion {
+    position: relative;
+}
+
+.backscorpion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/scorpionnovo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.backsubzero {
+    position: relative;
+}
+
+.backsubzero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/subzeronovo.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.backermac {
+    position: relative;
+}
+
+.backermac::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/ermacnovo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    z-index: -1; 
+}
+
+.backindex {
+    position: relative;
+}
+
+.backindex::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/backindex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1; 
 }
